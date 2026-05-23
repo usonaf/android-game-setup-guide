@@ -1,0 +1,306 @@
+{
+  "run_id": "run-1779495708244",
+  "job_index": 5,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 10,
+    "archetype": "generator",
+    "market": "Argentina - herramientas para juegos móviles, seguridad de cuenta y juego responsable",
+    "language": "es",
+    "country": "AR",
+    "brief": "Guía paso a paso para configurar juegos en Android.",
+    "notes": "Crear sitios en español rioplatense para Argentina. Deben ser herramientas web reales, con formulario funcional, resultado visible, copy claro y disclaimer de juego responsable. No prometer ganancias, no incentivar apuestas, no usar claims de casino. Localizar pagos/KYC a CBU, CVU, alias, DNI, CUIT/CUIL, billetera virtual y transferencia bancaria.\nGenera una guía personalizada de instalación o acceso móvil para Android.\nCampos: tipo de dispositivo, navegador, APK o sitio móvil, versión Android. Resultado: pasos personalizados y checks de seguridad.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "provider_space_id": "provider-space",
+    "provider_space_name": "Provider space",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "calculator",
+      "tool",
+      "generator"
+    ],
+    "site_idea_title": "Generador de guía para configurar juego Android",
+    "site_idea_summary": "Genera una guía personalizada de instalación o acceso móvil para Android.",
+    "forced_slug": "android-game-setup-guide"
+  },
+  "site_spec": {
+    "slug": "android-game-setup-guide",
+    "theme": {
+      "name": "Aurora Glass",
+      "slug": "aurora-glass",
+      "eyebrow": "Luminous Utility",
+      "family": "aurora-glass",
+      "moods": [
+        "premium",
+        "luminous",
+        "modern",
+        "futuristic"
+      ],
+      "archetypes": [
+        "tool",
+        "generator",
+        "calculator"
+      ],
+      "niches": [
+        "saas",
+        "automation",
+        "ai",
+        "analytics",
+        "digital utility"
+      ],
+      "keywords": [
+        "smart",
+        "assistant",
+        "platform",
+        "workflow",
+        "automation"
+      ],
+      "token_index": [
+        "analytics",
+        "assistant",
+        "aurora",
+        "automation",
+        "calculator",
+        "digital",
+        "futuristic",
+        "generator",
+        "glass",
+        "luminous",
+        "modern",
+        "platform",
+        "premium",
+        "saas",
+        "smart",
+        "tool",
+        "utility",
+        "workflow"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"Sora\", sans-serif",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "showcase",
+      "card_style": "glass",
+      "button_style": "gradient",
+      "decor_style": "orbs",
+      "hero_template": "0.94fr 1.06fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 2,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "34px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "16px",
+      "palette": {
+        "bg": "linear-gradient(135deg, #0f172a 0%, #1d4ed8 42%, #9333ea 100%)",
+        "surface": "rgba(11, 18, 32, 0.62)",
+        "surface_border": "rgba(255,255,255,0.16)",
+        "text": "#eff6ff",
+        "muted": "#bfdbfe",
+        "accent": "#7dd3fc",
+        "accent_alt": "#c084fc",
+        "hero_glow": "rgba(125, 211, 252, 0.26)",
+        "button_text": "#08111f",
+        "panel_alt": "rgba(255,255,255,0.08)",
+        "shadow": "0 28px 90px rgba(15, 23, 42, 0.36)",
+        "input_fill": "rgba(255,255,255,0.08)"
+      }
+    },
+    "structure": {
+      "name": "Evidence Journal",
+      "slug": "evidence-journal",
+      "hero_variant": "editorial",
+      "proof_variant": "rail",
+      "section_order": [
+        "proof",
+        "seo",
+        "features",
+        "faq"
+      ],
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "family": "editorial-journal",
+      "moods": [
+        "trust",
+        "narrative",
+        "research"
+      ],
+      "archetypes": [
+        "calculator",
+        "generator",
+        "tool"
+      ],
+      "niches": [
+        "legal",
+        "health",
+        "consulting",
+        "compliance"
+      ],
+      "keywords": [
+        "evidence",
+        "journal",
+        "narrative",
+        "proof"
+      ],
+      "token_index": [
+        "calculator",
+        "compliance",
+        "consulting",
+        "editorial",
+        "evidence",
+        "faq",
+        "features",
+        "generator",
+        "health",
+        "journal",
+        "legal",
+        "narrative",
+        "proof",
+        "rail",
+        "research",
+        "seo",
+        "tool",
+        "trust"
+      ]
+    },
+    "render_direction": "signal-bento",
+    "render_direction_name": "Signal Bento",
+    "page_blueprint": "campaign-mosaic",
+    "page_blueprint_name": "Campaign Mosaic",
+    "title": "Generador de Guía Android para Juegos",
+    "tagline": "Tu Configuración Rápida en 3 Pasos",
+    "description": "Genera una guía personalizada de instalación o acceso móvil para Android. Seguridad y juego responsable.",
+    "feature_prefix": "Módulo",
+    "action": "Generate profiles",
+    "cta_primary": "Generar Mi Guía Personalizada",
+    "cta_secondary": "Leer la FAQ",
+    "inputs": [
+      {
+        "id": "geo",
+        "label": "City or region",
+        "type": "text",
+        "placeholder": "Paris, Lyon, Bordeaux",
+        "weight": 1.0
+      },
+      {
+        "id": "quantity",
+        "label": "Number of profiles",
+        "type": "number",
+        "placeholder": "4",
+        "weight": 0.45
+      },
+      {
+        "id": "profile_type",
+        "label": "Profile type",
+        "type": "select",
+        "options": [
+          {
+            "id": "customer",
+            "label": "Customer",
+            "multiplier": 1
+          },
+          {
+            "id": "b2b",
+            "label": "B2B",
+            "multiplier": 1
+          },
+          {
+            "id": "beta",
+            "label": "Beta tester",
+            "multiplier": 1
+          }
+        ],
+        "weight": 1.0
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Signal Bento",
+        "label": "Cadencia"
+      },
+      {
+        "value": "3",
+        "label": "Entradas"
+      },
+      {
+        "value": "Generated profiles",
+        "label": "Salida"
+      }
+    ],
+    "trust_labels": [
+      "Signal Bento",
+      "Generar Mi Guía Personalizada",
+      "Generated profiles",
+      "Utilidad inmediata",
+      "Estructura SEO clara"
+    ],
+    "result_label": "Generated profiles",
+    "result_unit": "",
+    "runtime_mode": "profile_generator",
+    "page_variant": "console",
+    "faq_topic": "Generador de guía para configurar juego Android",
+    "faq_entries": [
+      {
+        "question": "¿Por qué usar esta herramienta para Generador de guía para configurar juego Android?",
+        "answer": "Ayuda a definir la necesidad rápidamente y a guiar hacia una siguiente acción clara en Argentina - herramientas para juegos móviles, seguridad de cuenta y juego responsable."
+      },
+      {
+        "question": "¿El resultado es inmediato?",
+        "answer": "Sí. La interfaz está pensada para devolver una respuesta rápida y clara desde la primera interacción."
+      },
+      {
+        "question": "¿La página está preparada para SEO?",
+        "answer": "Sí. La estructura combina utilidad, claridad editorial y señales de confianza sin recargar la experiencia."
+      }
+    ],
+    "seo_paragraphs": [
+      "Esta página está diseñada para captar una intención fuerte sobre Generador de guía para configurar juego Android y convertirla en una acción medible en Argentina - herramientas para juegos móviles, seguridad de cuenta y juego responsable.",
+      "La estructura hero-first mejora la claridad, reduce fricción y funciona bien tanto en móvil como en escritorio.",
+      "La base se mantiene ligera para facilitar pruebas, QA continua y variaciones SEO repetibles."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Generador de Guía Android para Juegos | Tu Configuración Rápida en 3 Pasos</title>\n    <meta name=\"description\" content=\"Genera una guía personalizada de instalación o acceso móvil para Android. Seguridad y juego responsable.\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Orbitron:wght@400;700&display=swap');\n        :root {\n            --primary-color: #2E3A87;\n            --secondary-color: #5D3FD3;\n            --accent-color: #8CFFD0;\n            --text-color: #E0E0E0;\n            --background-dark: #1A1A2E;\n            --background-light: #2C3347;\n            --glass-effect: rgba(255, 255, 255, 0.08);\n            --glass-border: rgba(255, 255, 255, 0.15);\n            --gradient-1: linear-gradient(135deg, rgba(46, 58, 135, 0.7), rgba(93, 63, 211, 0.7));\n            --gradient-2: linear-gradient(135deg, rgba(46, 58, 135, 0.9), rgba(93, 63, 211, 0.9));\n        }\n        body {\n            font-family: 'Montserrat', sans-serif;\n            background: var(--background-dark);\n            color: var(--text-color);\n            margin: 0;\n            padding: 0;\n            line-height: 1.6;\n            scroll-behavior: smooth;\n        }\n        .container {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 20px;\n        }\n        header {\n            background: var(--gradient-1);\n            padding: 40px 20px;\n            text-align: center;\n            border-bottom: 1px solid var(--glass-border);\n            position: relative;\n            overflow: hidden;\n            border-radius: 0 0 20px 20px;\n        }\n        header::before {\n            content: '';\n            position: absolute;\n            top: -50%;\n            left: -50%;\n            width: 200%;\n            height: 200%;\n            background: radial-gradient(circle at 50% 50%, rgba(140, 255, 208, 0.1) 0%, transparent 70%);\n            animation: aurora 15s infinite alternate;\n        }\n        @keyframes aurora {\n            0% { transform: translate(0, 0) rotate(0deg); opacity: 0.8; }\n            50% { transform: translate(20%, 30%) rotate(45deg); opacity: 0.6; }\n            100% { transform: translate(0, 0) rotate(0deg); opacity: 0.8; }\n        }\n        h1 {\n            font-family: 'Orbitron', sans-serif;\n            font-size: 2.8em;\n            color: var(--accent-color);\n            margin-bottom: 10px;\n            text-shadow: 0 0 15px rgba(140, 255, 208, 0.6);\n            position: relative;\n            z-index: 1;\n        }\n        header p {\n            font-size: 1.2em;\n            max-width: 700px;\n            margin: 0 auto;\n            color: var(--text-color);\n            position: relative;\n            z-index: 1;\n        }\n        section {\n            background: var(--background-light);\n            border-radius: 15px;\n            padding: 30px;\n            margin-top: 30px;\n            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);\n            backdrop-filter: blur(4px);\n            -webkit-backdrop-filter: blur(4px);\n            border: 1px solid var(--glass-border);\n        }\n        .section-title {\n            font-family: 'Orbitron', sans-serif;\n            color: var(--accent-color);\n            font-size: 2em;\n            margin-bottom: 20px;\n            text-align: center;\n        }\n        #tool-form .form-group {\n            margin-bottom: 20px;\n        }\n        #tool-form label {\n            display: block;\n            margin-bottom: 8px;\n            color: var(--accent-color);\n            font-weight: 600;\n        }\n        #tool-form select,\n        #tool-form input[type=\"number\"] {\n            width: 100%;\n            padding: 12px;\n            border: 1px solid var(--glass-border);\n            border-radius: 8px;\n            background-color: var(--glass-effect);\n            color: var(--text-color);\n            font-size: 1em;\n            box-sizing: border-box;\n            -webkit-appearance: none;\n            -moz-appearance: none;\n            appearance: none;\n        }\n        #tool-form select:focus,\n        #tool-form input[type=\"number\"]:focus {\n            outline: none;\n            border-color: var(--accent-color);\n            box-shadow: 0 0 0 3px rgba(140, 255, 208, 0.3);\n        }\n        #tool-submit {\n            display: block;\n            width: 100%;\n            padding: 15px;\n            background: var(--gradient-2);\n            color: white;\n            border: none;\n            border-radius: 8px;\n            font-size: 1.2em;\n            font-weight: 700;\n            cursor: pointer;\n            transition: background 0.3s ease, transform 0.2s ease;\n            text-transform: uppercase;\n            letter-spacing: 1px;\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);\n        }\n        #tool-submit:hover {\n            background: linear-gradient(135deg, rgba(93, 63, 211, 0.9), rgba(46, 58, 135, 0.9));\n            transform: translateY(-2px);\n        }\n        #tool-result {\n            margin-top: 30px;\n            padding: 25px;\n            background-color: var(--glass-effect);\n            border-radius: 10px;\n            border: 1px solid var(--glass-border);\n            box-shadow: inset 0 0 10px rgba(140, 255, 208, 0.2);\n            min-height: 150px;\n        }\n        #tool-result h3 {\n            font-family: 'Orbitron', sans-serif;\n            color: var(--accent-color);\n            font-size: 1.8em;\n            margin-bottom: 15px;\n            text-align: center;\n        }\n        #tool-result ol {\n            padding-left: 20px;\n            list-style-type: decimal;\n        }\n        #tool-result li {\n            margin-bottom: 12px;\n            font-size: 1.1em;\n            color: var(--text-color);\n        }\n        #tool-result strong {\n            color: var(--accent-color);\n        }\n        .security-tips {\n            margin-top: 25px;\n            padding-top: 20px;\n            border-top: 1px solid var(--glass-border);\n        }\n        .security-tips h4 {\n            font-family: 'Orbitron', sans-serif;\n            color: var(--primary-color);\n            font-size: 1.4em;\n            margin-bottom: 10px;\n            text-align: center;\n        }\n        .security-tips ul {\n            list-style: none;\n            padding: 0;\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            gap: 15px;\n        }\n        .security-tips li {\n            background-color: var(--background-dark);\n            padding: 15px;\n            border-radius: 8px;\n            border: 1px solid var(--glass-border);\n            font-size: 0.95em;\n            display: flex;\n            align-items: center;\n            box-shadow: 0 2px 8px rgba(0,0,0,0.2);\n        }\n        .security-tips li::before {\n            content: '🛡️';\n            margin-right: 10px;\n            font-size: 1.2em;\n        }\n        .disclaimer {\n            font-size: 0.9em;\n            color: rgba(224, 224, 224, 0.7);\n            margin-top: 20px;\n            text-align: center;\n        }\n        .cta-section {\n            display: flex;\n            flex-direction: column;\n            gap: 20px;\n            margin-top: 30px;\n        }\n        .cta-button {\n            display: block;\n            padding: 15px 25px;\n            background: var(--primary-color);\n            color: white;\n            text-align: center;\n            border-radius: 8px;\n            text-decoration: none;\n            font-weight: 600;\n            font-size: 1.1em;\n            transition: background 0.3s ease, transform 0.2s ease;\n            box-shadow: 0 4px 10px rgba(0,0,0,0.2);\n        }\n        .cta-button:hover {\n            background: var(--secondary-color);\n            transform: translateY(-2px);\n        }\n        footer {\n            text-align: center;\n            padding: 40px 20px;\n            margin-top: 50px;\n            background: var(--background-light);\n            border-top: 1px solid var(--glass-border);\n            color: rgba(224, 224, 224, 0.8);\n            border-radius: 20px 20px 0 0;\n        }\n        footer .seo-text {\n            text-align: left;\n            margin-top: 30px;\n            font-size: 0.85em;\n            max-width: 900px;\n            margin-left: auto;\n            margin-right: auto;\n            color: rgba(224, 224, 224, 0.6);\n        }\n        footer .seo-text h2 {\n            font-family: 'Orbitron', sans-serif;\n            color: var(--accent-color);\n            font-size: 1.5em;\n            margin-bottom: 15px;\n        }\n        footer .seo-text p {\n            margin-bottom: 1em;\n        }\n        footer .seo-text ul {\n            list-style: disc;\n            padding-left: 20px;\n            margin-bottom: 1em;\n        }\n        footer .seo-text li {\n            margin-bottom: 0.5em;\n        }\n        /* Responsive adjustments */\n        @media (max-width: 768px) {\n            h1 {\n                font-size: 2em;\n            }\n            header p {\n                font-size: 1em;\n            }\n            .section-title {\n                font-size: 1.6em;\n            }\n            #tool-submit {\n                font-size: 1em;\n                padding: 12px;\n            }\n            #tool-result h3 {\n                font-size: 1.5em;\n            }\n            .security-tips li {\n                font-size: 0.9em;\n            }\n            .cta-button {\n                font-size: 1em;\n                padding: 12px 20px;\n            }\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://android-game-setup-guide.onrender.com\">\n    <meta property=\"og:title\" content=\"Generador de Guía Android para Juegos\">\n    <meta property=\"og:description\" content=\"Genera una guía personalizada de instalación o acceso móvil para Android. Seguridad y juego responsable.\">\n    <meta property=\"og:url\" content=\"https://android-game-setup-guide.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Generador de Guía Android para Juegos\", \"description\": \"Genera una guía personalizada de instalación o acceso móvil para Android. Seguridad y juego responsable.\", \"url\": \"https://android-game-setup-guide.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"android-game-setup-guide\" data-runtime-mode=\"profile_generator\">\n    <header>\n        <div class=\"container\">\n            <h1>Generador de Guía Android para Juegos</h1>\n            <p>Obtené pasos personalizados para configurar tus juegos móviles en Android, con foco en seguridad y una experiencia de juego óptima. ¡Todo a tu medida!</p>\n        </div>\n    </header>\n\n    <main class=\"container\">\n        <section id=\"configuracion-rapida\">\n            <h2 class=\"section-title\">Tu Configuración Rápida en 3 Pasos</h2>\n            <p style=\"text-align: center; margin-bottom: 25px;\">Completá los datos de tu dispositivo para recibir una guía detallada.</p>\n            <form id=\"tool-form\">\n                <div class=\"form-group\">\n                    <label for=\"deviceType\">Tipo de Dispositivo:</label>\n                    <select id=\"deviceType\" name=\"deviceType\" required>\n                        <option value=\"smartphone\">Smartphone (Celular)</option>\n                        <option value=\"tablet\">Tablet</option>\n                    </select>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"browser\">Navegador Principal:</label>\n                    <select id=\"browser\" name=\"browser\" required>\n                        <option value=\"chrome\">Google Chrome</option>\n                        <option value=\"firefox\">Mozilla Firefox</option>\n                        <option value=\"samsung\">Samsung Internet</option>\n                        <option value=\"opera\">Opera Browser</option>\n                        <option value=\"edge\">Microsoft Edge</option>\n                        <option value=\"other\">Otro (genérico)</option>\n                    </select>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"installMethod\">Método de Instalación/Acceso:</label>\n                    <select id=\"installMethod\" name=\"installMethod\" required>\n                        <option value=\"apk\">Instalar por APK (archivo .apk)</option>\n                        <option value=\"mobile-site\">Acceder desde Sitio Móvil (navegador)</option>\n                        <option value=\"playstore\">Descargar de Google Play Store</option>\n                    </select>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"androidVersion\">Versión de Android (aproximada):</label>\n                    <input type=\"number\" id=\"androidVersion\" name=\"androidVersion\" min=\"7\" max=\"14\" value=\"12\" required>\n                    <small style=\"color: rgba(224, 224, 224, 0.7); display: block; margin-top: 5px;\">Podés encontrarla en 'Ajustes' > 'Acerca del teléfono' > 'Información de software'.</small>\n                </div>\n                <button type=\"submit\" id=\"tool-submit\">Generar Mi Guía Personalizada</button>\n            </form>\n        </section>\n\n        <section id=\"tool-result\">\n            <h3 id=\"result-headline\">Aquí tu Guía Personalizada:</h3>\n            <div id=\"result-content\">\n                <p>Completá el formulario de arriba y hacé clic en \"Generar Mi Guía Personalizada\" para ver los pasos aquí.</p>\n            </div>\n        </section>\n\n        <section id=\"seguridad-consejos\">\n            <h2 class=\"section-title\">Juego Responsable y Seguridad Digital</h2>\n            <p style=\"text-align: center; margin-bottom: 25px;\">Priorizar tu bienestar y la seguridad de tu información es clave.</p>\n            <div class=\"security-tips\">\n                <h4>Tips Fundamentales para tu Tranquilidad:</h4>\n                <ul>\n                    <li>Verificá la fuente de descarga: Solo bajá APKs de sitios de confianza o usá la Google Play Store.</li>\n                    <li>Revisá los permisos: Antes de instalar, leé qué permisos solicita la app. Si parece excesivo, investigá.</li>\n                    <li>Mantené tu Android actualizado: Las actualizaciones de sistema traen parches de seguridad importantes.</li>\n                    <li>Usá una contraseña fuerte: Para tu cuenta de Google y cualquier otra vinculada a juegos. Considerá la verificación en dos pasos.</li>\n                    <li>Juego con límites: Establecé tiempos y montos si el juego implica compras. El entretenimiento es lo primero.</li>\n                    <li>Evitá redes Wi-Fi públicas no seguras: Podrían ser un riesgo para tus datos personales al hacer transacciones o iniciar sesión.</li>\n                    <li>Software antivirus móvil: Un buen antivirus puede detectar amenazas en tu dispositivo Android.</li>\n                    <li>Monitoreá tus gastos: Si realizás compras, revisá periódicamente tus movimientos bancarios o de billetera virtual.</li>\n                </ul>\n            </div>\n            <p class=\"disclaimer\">\n                <strong>Disclaimer de Juego Responsable:</strong> Esta guía es una herramienta informativa. El juego debe ser siempre una actividad recreativa y responsable. Si sentís que el juego afecta negativamente tu vida o tus finanzas, buscá ayuda profesional. Recordá que no se garantiza ningún tipo de ganancia ni se incentivan apuestas. La información es solo para optimizar tu experiencia técnica.\n            </p>\n        </section>\n\n        <section id=\"mas-herramientas\" class=\"cta-section\">\n            <h2 class=\"section-title\">Explorá Más Herramientas y Recursos</h2>\n            <a href=\"#\" class=\"cta-button\" data-affiliate-slot=\"slot-1\">Guías Avanzadas de Optimización</a>\n            <a href=\"#\" class=\"cta-button\" data-affiliate-slot=\"slot-2\">Recursos sobre Seguridad Digital</a>\n            <a href=\"#\" class=\"cta-button\" data-affiliate-slot=\"slot-3\">Soporte y Comunidad Argentina</a>\n        </section>\n    </main>\n\n    <footer>\n        <div class=\"container\">\n            <p>&copy; 2024 Mobile AR. Todos los derechos reservados.</p>\n            <div class=\"seo-text\">\n                <h2>Herramientas para Juegos Móviles en Argentina: Guías, Seguridad y Responsabilidad</h2>\n                <p>En el vibrante mundo de los juegos móviles en Argentina, es fundamental contar con la información precisa para una experiencia fluida y segura. Nuestro \"Generador de Guía Android para Juegos\" es una herramienta clave para gamers que buscan optimizar su configuración, ya sea para instalar un juego vía APK, acceder desde un sitio móvil o simplemente asegurarse de que su dispositivo esté listo para la acción.</p>\n                <p>Entendemos la importancia de la <strong>seguridad de cuenta</strong> y el <strong>juego responsable</strong>. Por eso, además de brindarte pasos detallados, incorporamos consejos prácticos para proteger tus datos, desde cómo verificar permisos de aplicaciones hasta la necesidad de mantener tu sistema Android actualizado. Sabemos que la comunidad gamer argentina valora la transparencia y el cuidado en el uso de plataformas digitales.</p>\n                <h3>¿Por qué es importante una guía personalizada?</h3>\n                <ul>\n                    <li><strong>Compatibilidad:</strong> Cada dispositivo y versión de Android tiene sus particularidades. Una guía a medida te ahorra tiempo y frustraciones.</li>\n                    <li><strong>Rendimiento:</strong> Ajustes específicos pueden mejorar significativamente la fluidez y los gráficos de tus juegos.</li>\n                    <li><strong>Seguridad:</strong> Te alertamos sobre prácticas seguras al descargar contenido fuera de la Play Store y cómo proteger tu información personal.</li>\n                    <li><strong>Juego Responsable:</strong> Fomentamos el entretenimiento consciente, con recomendaciones para establecer límites y reconocer señales de alerta.</li>\n                </ul>\n                <p>Nuestro compromiso es con la comunidad argentina de juegos móviles, ofreciendo soluciones prácticas y promoviendo un entorno digital seguro. Si buscás <em>configurar juegos Android Argentina</em>, <em>seguridad en juegos móviles</em>, <em>guía APK Android</em>, <em>juego responsable Argentina</em> o <em>herramientas gaming móvil</em>, estás en el lugar correcto. Potenciá tu juego con información confiable y específica para el contexto argentino.</p>\n                <p>Recordá que para cualquier transacción o pago online en Argentina, las opciones más comunes incluyen CBU, CVU, alias CBU/CVU, DNI, CUIT/CUIL, billeteras virtuales (Mercado Pago, Ualá, etc.) y transferencias bancarias directas, siempre asegurando la identidad (KYC) para tu protección.</p>\n            </div>\n        </div>\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const deviceType = document.getElementById('deviceType').value;\n            const browser = document.getElementById('browser').value;\n            const installMethod = document.getElementById('installMethod').value;\n            const androidVersion = parseInt(document.getElementById('androidVersion').value);\n\n            let steps = [];\n            let securityTips = [];\n\n            // General steps\n            steps.push(\"<strong>Paso 1: Preparación del Dispositivo</strong>\");\n            steps.push(`Asegurate de tener al menos un <strong>50% de batería</strong> y una conexión a <strong>Wi-Fi estable</strong>.`);\n            steps.push(`Liberá espacio: Andá a 'Ajustes' > 'Almacenamiento' y eliminá archivos o apps que no uses para que el juego corra fluido.`);\n\n            // Method-specific steps\n            if (installMethod === 'playstore') {\n                steps.push(`<strong>Paso 2: Descarga desde Google Play Store</strong>`);\n                steps.push(`Abrí la aplicación <strong>Google Play Store</strong> en tu ${deviceType}.`);\n                steps.push(`Usá la barra de búsqueda para encontrar el nombre exacto del juego.`);\n                steps.push(`Verificá que el desarrollador sea el oficial y lee las opiniones. Luego, pulsá 'Instalar'.`);\n                steps.push(`Esperá a que la descarga e instalación se completen. Puede tomar unos minutos dependiendo del tamaño del juego y tu conexión.`);\n                steps.push(`<strong>Paso 3: Inicio y Configuración Inicial</strong>`);\n                steps.push(`Una vez instalado, buscá el ícono del juego en tu pantalla de inicio o en el cajón de aplicaciones.`);\n                steps.push(`Abrí el juego y seguí las instrucciones iniciales. Puede pedirte descargar datos adicionales o iniciar sesión.`);\n                securityTips.push(`Siempre descargá desde la Google Play Store oficial para garantizar la seguridad de la aplicación.`);\n            } else if (installMethod === 'apk') {\n                steps.push(`<strong>Paso 2: Habilitar Fuentes Desconocidas</strong>`);\n                steps.push(`Este paso es crucial para instalar APKs. Andá a 'Ajustes' > 'Seguridad' (o 'Privacidad' en versiones más nuevas).`);\n                if (androidVersion >= 8) {\n                    steps.push(`Buscá 'Instalar aplicaciones desconocidas' o 'Permisos especiales'. Allí, encontrá tu navegador (${browser}) y <strong>permití la instalación de apps desde esta fuente</strong>.`);\n                } else {\n                    steps.push(`Activá la opción 'Fuentes desconocidas'.`);\n                }\n                steps.push(`<strong>Paso 3: Descarga del Archivo APK</strong>`);\n                steps.push(`Abrí tu navegador (${browser}) y andá a la fuente de confianza donde vas a descargar el archivo APK. <strong>¡Asegurate que sea una web segura!</strong>`);\n                steps.push(`Descargá el archivo .apk. Generalmente, una notificación te indicará cuando la descarga esté completa.`);\n                steps.push(`<strong>Paso 4: Instalación del Juego</strong>`);\n                steps.push(`Abrí el archivo APK desde la notificación de descarga o buscándolo en 'Archivos' > 'Descargas'.`);\n                steps.push(`Pulsá 'Instalar'. Si aparece una ventana de permisos, revisalos con atención y aceptá si estás de acuerdo.`);\n                steps.push(`<strong>Paso 5: Inicio y Verificación</strong>`);\n                steps.push(`Una vez instalado, abrí el juego. Realizá un escaneo rápido con tu antivirus si tenés uno, para mayor tranquilidad.`);\n                securityTips.push(`<strong>MUY IMPORTANTE:</strong> Solo descargá APKs de sitios de TOTAL confianza. Las APKs de fuentes desconocidas pueden contener malware.`);\n                securityTips.push(`Desactivá 'Fuentes desconocidas' después de instalar si no vas a usarlo más, o revisá los permisos individuales de la app.`);\n            } else if (installMethod === 'mobile-site') {\n                steps.push(`<strong>Paso 2: Acceso al Sitio Móvil del Juego</strong>`);\n                steps.push(`Abrí tu navegador (${browser}) en tu ${deviceType}.`);\n                steps.push(`Escribí la dirección web oficial del juego o plataforma de juego en la barra de direcciones y presioná 'Enter'.`);\n                steps.push(`<strong>Paso 3: Optimización del Navegador y Sitio</strong>`);\n                steps.push(`Asegurate de que tu navegador esté actualizado para una mejor compatibilidad.`);\n                steps.push(`Si el sitio lo ofrece, considerá 'Agregar a la pantalla de inicio' (opción generalmente en el menú del navegador, los tres puntos) para un acceso rápido como si fuera una app.`);\n                steps.push(`<strong>Paso 4: Configuración y Juego</strong>`);\n                steps.push(`Iniciá sesión o creá una cuenta si es necesario. Aceptá las cookies y revisá los términos y condiciones.`);\n                steps.push(`Verificá que el sitio sea HTTPS (tendrá un candadito en la barra de direcciones) para una conexión segura.`);\n                securityTips.push(`Siempre accedé a la URL oficial del juego. Evitá links sospechosos que puedan llevarte a sitios de phishing.`);\n                securityTips.push(`Mantené tus contraseñas seguras y usá diferentes para cada plataforma.`);\n            }\n\n            steps.push(`<strong>Paso Final: Disfrutar y Jugar Responsablemente</strong>`);\n            steps.push(`¡Listo! Empezá a disfrutar de tu juego. Recordá siempre jugar de forma responsable, estableciendo límites de tiempo y, si aplica, de gasto.`);\n            steps.push(`Si el juego ofrece opciones de configuración de gráficos o rendimiento, ajustalas a tu gusto y a las capacidades de tu ${deviceType} para la mejor experiencia.`);\n\n            let resultHtml = `<h3>Guía Detallada para tu ${deviceType}</h3><ol>${steps.map(step => `<li>${step}</li>`).join('')}</ol>`;\n\n            if (securityTips.length > 0) {\n                resultHtml += `<div class=\"security-tips\"><h4>Consideraciones de Seguridad Específicas:</h4><ul>${securityTips.map(tip => `<li>${tip}</li>`).join('')}</ul></div>`;\n            }\n\n            document.getElementById('result-content').innerHTML = resultHtml;\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"Result area was not found.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Native form submission updated the result area.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"Result area did not render usable output.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Primary tool form was not found.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
